@@ -4947,7 +4947,7 @@ GameObject:
   - component: {fileID: 530504253}
   - component: {fileID: 530504252}
   m_Layer: 0
-  m_Name: Test (2)
+  m_Name: SmallLeftStar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10031,7 +10031,7 @@ GameObject:
   - component: {fileID: 1005745928}
   - component: {fileID: 1005745927}
   m_Layer: 0
-  m_Name: Test
+  m_Name: SmallMiddleStar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14843,7 +14843,7 @@ GameObject:
   - component: {fileID: 1892853574}
   - component: {fileID: 1892853573}
   m_Layer: 0
-  m_Name: w
+  m_Name: LargeStar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19816,7 +19816,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 14.02
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -24472,7 +24472,7 @@ GameObject:
   - component: {fileID: 2104538485}
   - component: {fileID: 2104538484}
   m_Layer: 0
-  m_Name: Test (1)
+  m_Name: SmallRightStar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
