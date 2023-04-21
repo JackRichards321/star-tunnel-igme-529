@@ -29603,7 +29603,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EntireParticleStar: {fileID: 1986908452}
   MiddleLargeStar: {fileID: 1892853574}
+  TLStar: {fileID: 154115681}
+  TMStar: {fileID: 528237830}
+  TRStar: {fileID: 514381469}
+  BLStar: {fileID: 530504253}
+  BMStar: {fileID: 1005745928}
+  BRStar: {fileID: 2104538485}
   M_CircleGlowy: {fileID: 2100000, guid: 17a44e7eca5bd444faebecf3bc4a7c18, type: 2}
+  M_StarGlowy: {fileID: 2100000, guid: fba5a00ff7acadb4fb95302d26dffcb3, type: 2}
+  M_TrianGlowy: {fileID: 2100000, guid: 7cee2183ae9f9314c956eb178a9f864b, type: 2}
+  M_HeartGlowy: {fileID: 2100000, guid: f7f37a0db11de0d49ae54a5580eb29ba, type: 2}
+  M_SquareGlowy: {fileID: 2100000, guid: 92d019bd3a19ddf4eab6b60cd163e7bc, type: 2}
+  M_4PointGlowy: {fileID: 2100000, guid: 8a3f6b4b38753e44585fe900596307ef, type: 2}
+  M_HexaGlowy: {fileID: 2100000, guid: 94063b6e99af59e41960bf583c31c18b, type: 2}
+  M_OctaGlowy: {fileID: 2100000, guid: 28b19defff6e3c44483a91ee77d1fd04, type: 2}
+  M_DiamondGlowy: {fileID: 2100000, guid: 8f96175df10a289408f9e420ef37be80, type: 2}
 --- !u!1 &1289969253
 GameObject:
   m_ObjectHideFlags: 0
