@@ -10,6 +10,11 @@ public class AudioLoudnessDetection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (Microphone.devices.Length == 0)
+        {
+            AudioSettings.Reset(AudioSettings.GetConfiguration());
+        }
+
         MicrophoneToAudioClip();
     }
 
@@ -22,14 +27,14 @@ public class AudioLoudnessDetection : MonoBehaviour
     public void MicrophoneToAudioClip()
     {
         //get the first microphone in device list
-        string microphoneName = Microphone.devices[1];
+        string microphoneName = Microphone.devices[0];
         microphoneClip = Microphone.Start(microphoneName, true, 20, AudioSettings.outputSampleRate);
         
     }
 
     public float GetLoudnessFromMicrophone()
     {
-        return GetLoudnessFromAudioClip(Microphone.GetPosition(Microphone.devices[1]), microphoneClip);
+        return GetLoudnessFromAudioClip(Microphone.GetPosition(Microphone.devices[0]), microphoneClip);
     }
 
     public float GetLoudnessFromAudioClip(int clipPosition, AudioClip clip)
