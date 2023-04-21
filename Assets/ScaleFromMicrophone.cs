@@ -29,7 +29,7 @@ public class ScaleFromMicrophone : MonoBehaviour
         var main = ps.main;
 
         //lerp value from minSpeed to maxSpeed
-        //main.simulationSpeed = Mathf.Lerp(minSpeed, maxSpeed, loudness);
-        ps.playbackSpeed = Mathf.Lerp(minSpeed, maxSpeed, loudness);
+        main.simulationSpeed = Mathf.Lerp(minSpeed, maxSpeed, loudness);
+        //ps.playbackSpeed = Mathf.Lerp(minSpeed, maxSpeed, loudness);
     }
 }

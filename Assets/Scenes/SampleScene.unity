@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 154115679}
   - component: {fileID: 154115681}
   - component: {fileID: 154115680}
+  - component: {fileID: 154115682}
   m_Layer: 0
   m_Name: TopLeft
   m_TagString: Untagged
@@ -4993,6 +4994,24 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &154115682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154115678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &187201538
 GameObject:
   m_ObjectHideFlags: 0
@@ -9816,6 +9835,7 @@ GameObject:
   - component: {fileID: 514381467}
   - component: {fileID: 514381469}
   - component: {fileID: 514381468}
+  - component: {fileID: 514381470}
   m_Layer: 0
   m_Name: TopRight
   m_TagString: Untagged
@@ -14675,6 +14695,24 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &514381470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514381466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &528237827
 GameObject:
   m_ObjectHideFlags: 0
@@ -14686,6 +14724,7 @@ GameObject:
   - component: {fileID: 528237828}
   - component: {fileID: 528237830}
   - component: {fileID: 528237829}
+  - component: {fileID: 528237831}
   m_Layer: 0
   m_Name: TopMid
   m_TagString: Untagged
@@ -19545,6 +19584,24 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &528237831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528237827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &530504251
 GameObject:
   m_ObjectHideFlags: 0
@@ -19556,6 +19613,7 @@ GameObject:
   - component: {fileID: 530504254}
   - component: {fileID: 530504253}
   - component: {fileID: 530504252}
+  - component: {fileID: 530504255}
   m_Layer: 0
   m_Name: BotLeft
   m_TagString: Untagged
@@ -24415,6 +24473,24 @@ Transform:
   m_Father: {fileID: 1986908453}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!114 &530504255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530504251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &542918814
 GameObject:
   m_ObjectHideFlags: 0
@@ -24698,6 +24774,7 @@ GameObject:
   - component: {fileID: 1005745929}
   - component: {fileID: 1005745928}
   - component: {fileID: 1005745927}
+  - component: {fileID: 1005745930}
   m_Layer: 0
   m_Name: BotMid
   m_TagString: Untagged
@@ -29557,6 +29634,24 @@ Transform:
   m_Father: {fileID: 1986908453}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!114 &1005745930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005745926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &1166774226
 GameObject:
   m_ObjectHideFlags: 0
@@ -29629,6 +29724,7 @@ GameObject:
   - component: {fileID: 1289969254}
   - component: {fileID: 1289969256}
   - component: {fileID: 1289969255}
+  - component: {fileID: 1289969257}
   m_Layer: 0
   m_Name: Dots
   m_TagString: Untagged
@@ -34430,6 +34526,24 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &1289969257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289969253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &1892853572
 GameObject:
   m_ObjectHideFlags: 0
@@ -34441,6 +34555,7 @@ GameObject:
   - component: {fileID: 1892853575}
   - component: {fileID: 1892853574}
   - component: {fileID: 1892853573}
+  - component: {fileID: 1892853576}
   m_Layer: 0
   m_Name: LargeStar
   m_TagString: Untagged
@@ -39300,6 +39415,24 @@ Transform:
   m_Father: {fileID: 1986908453}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!114 &1892853576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892853572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &1986908450
 GameObject:
   m_ObjectHideFlags: 0
@@ -44151,6 +44284,7 @@ GameObject:
   - component: {fileID: 2104538486}
   - component: {fileID: 2104538485}
   - component: {fileID: 2104538484}
+  - component: {fileID: 2104538487}
   m_Layer: 0
   m_Name: BotRight
   m_TagString: Untagged
@@ -49010,6 +49144,24 @@ Transform:
   m_Father: {fileID: 1986908453}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
+--- !u!114 &2104538487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104538483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8cedc5fb132984f9859e496088e033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  minSpeed: 2
+  maxSpeed: 12
+  detector: {fileID: 2133167094}
+  loudnessSensibility: 100
+  threshold: 0.1
 --- !u!1 &2133167093
 GameObject:
   m_ObjectHideFlags: 0
